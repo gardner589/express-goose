@@ -40,5 +40,7 @@ omlette.save(function(err, recipe){
   }
 })
 
+module.exports = Recipe;
+
 // {type: Schema.ObjectId, ref: "Recipe"}
 // console.log(omlette.ingredients);
